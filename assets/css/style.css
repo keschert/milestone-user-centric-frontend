@@ -1,32 +1,54 @@
 h1 {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: antiquewhite;
+    margin-bottom: 40px;
 }
 
 h2 {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: antiquewhite;
-
-}
-
-header {
-    margin: 0;
-}
-
-.navbar {
-    padding: 10, 10, 5, 5;
-}
-
-p {
-    color: antiquewhite;
+    margin: 20.5%;
+    background-color: azure;
+    border: 1px solid #000000;
 }
 
 body {
-    background-image: url("../images/Brighton.jpg");
+    background-image: url("../images/BrightonBeach.jpg");
     background-color: darkcyan;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
+    background-attachment: fixed;
+}
+
+body background-image {
+    opacity: 0.5;
+}
+
+p {
+    margin: 15%;
+    border: 2px;
+    font-size: 18px;
+}
+
+.question {
+    font-size: 25px;
+    margin-left: 10%;
+}
+
+.prop-type {
+    margin-left: 15%;
+    font-size: 18px;
+}
+
+.nav-link {
+    margin-left: 40px;
+}
+
+.fa {
+    margin-right: 8px;
+}
+
+.form {
+    margin: 0 25%;
 }
