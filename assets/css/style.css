@@ -1,28 +1,51 @@
-h1 {
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-bottom: 40px;
-}
-
-h2 {
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 20.5%;
-    background-color: azure;
-    border: 1px solid #000000;
-}
-
 body::after {
     content: "";
     background: url("../images/Brighton.jpg");
     background-size: 100%;
-    opacity: 0.5;
+    opacity: 0.3;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     position: fixed;
     z-index: -1;
+}
+
+h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20.5%;
+}
+
+.h2_background {
+    color: #000000;
+    background-color: rgba(176, 240, 236, 0.5);
+    border: 1px solid #000000;
+    opacity: 0.5;
+}
+
+.background {
+    color: #000000;
+    background-color: rgba(176, 240, 236, 0.5);
+    border: 1px solid #000000;
+    opacity: 0.5;
+}
+
+.background:hover {
+    opacity: 0.9;
+}
+
+.process {
+    text-align: center;
 }
 
 p {
@@ -44,11 +67,46 @@ p {
 .nav-link {
     margin-left: 40px;
 }
-    
+
 .fa {
     margin-right: 8px;
 }
 
 .form {
     margin: 0 25%;
+}
+
+footer {
+    background-color: #afebe3;
+    color: #6f6c6c;
+    min-height: 120px;
+    margin: 0;
+    position: bottom;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #6f6c6c;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #10e8e1;
+}
+
+#footer-details {
+    padding: 20px;
 }
